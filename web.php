@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/getAge/{age}', 'AgeController@getAge');
-Route::get('/getName/{name}', 'AgeController@getName');
+Route::get('/getUser/{age}/{name}', 'userController@getUser');
 

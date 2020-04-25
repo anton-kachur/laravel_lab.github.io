@@ -5,8 +5,10 @@ namespace App;
 class User{
     var $age;
     var $name;
-    function __construct($age, $name) {
+    var $arr;
+    function __construct($age, $name, $arr) {
         $this->age = $age;
         $this->name = $name;
+        $this->arr = $arr;
     }
 }
